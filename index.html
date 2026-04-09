@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AgroMind AI – Next-gen AI platform for smart agriculture, crop yield prediction, and climate-aware farming. Empowering farmers, NGOs and governments globally.">
+    <title>AgroMind AI – Predict. Empower. End Hunger.</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing_styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <div class="nav-brand-icon"><i class="fas fa-leaf"></i></div>
+                <span class="nav-brand-text">AgroMind AI</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="main.html" class="nav-cta">Launch Dashboard →</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+
+        <!-- Animated particles -->
+        <div class="hero-particles" id="particles"></div>
+
+        <div class="hero-container">
+            <div class="hero-content fade-in-up">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    AI-Powered Agricultural Intelligence
+                </div>
+                <h1>
+                    Feed the World<br>with <span class="highlight">Smart AI</span>
+                </h1>
+                <p class="subheading">Harness the power of AI to secure food for every table — today, tomorrow, and for generations to come.</p>
+                <p class="hero-description">
+                    AgroMind AI is the next-generation platform transforming agriculture with real-time AI insights, crop yield forecasting, and climate-smart planning. We empower farmers, NGOs, and governments to make data-driven decisions that fight hunger and build resilient food systems.
+                </p>
+                <div class="hero-actions">
+                    <a href="main.html" class="cta-button">
+                        <i class="fas fa-rocket"></i> Get Started Free
+                    </a>
+                    <a href="#features" class="cta-secondary">
+                        <i class="fas fa-play-circle"></i> Explore Features
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-in-up">
+                <div class="hero-card-3d">
+                    <!-- Floating badges -->
+                    <div class="hero-float-badge top-right">
+                        <div class="badge-icon green"><i class="fas fa-check"></i></div>
+                        <div>
+                            <div style="font-size:0.75rem;color:#94a3b8;">Prediction Status</div>
+                            <div style="color:#00e676;">95% Accuracy</div>
+                        </div>
+                    </div>
+                    <div class="hero-float-badge bottom-left">
+                        <div class="badge-icon blue"><i class="fas fa-users"></i></div>
+                        <div>
+                            <div style="font-size:0.75rem;color:#94a3b8;">Farmers Reached</div>
+                            <div>2M+ Global</div>
+                        </div>
+                    </div>
+
+                    <div class="hero-main-card">
+                        <div>
+                            <div class="hero-card-icon"><i class="fas fa-seedling"></i></div>
+                            <div class="hero-card-title">Yield Forecast</div>
+                            <div class="hero-card-sub">Season 2025 · Maize · Nyeri County</div>
+                        </div>
+
+                        <div class="hero-card-metrics">
+                            <div class="hero-metric">
+                                <div class="hero-metric-val">4.8T</div>
+                                <div class="hero-metric-lbl">Predicted Yield</div>
+                            </div>
+                            <div class="hero-metric">
+                                <div class="hero-metric-val">+38%</div>
+                                <div class="hero-metric-lbl">vs. Last Season</div>
+                            </div>
+                            <div class="hero-metric">
+                                <div class="hero-metric-val">Low</div>
+                                <div class="hero-metric-lbl">Drought Risk</div>
+                            </div>
+                            <div class="hero-metric">
+                                <div class="hero-metric-val">Opt.</div>
+                                <div class="hero-metric-lbl">Soil Health</div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="hero-card-bar">
+                                <span>AI Confidence</span>
+                                <div class="hero-progress">
+                                    <div class="hero-progress-fill" style="width:92%"></div>
+                                </div>
+                                <span style="color:#00e676;font-weight:700">92%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item scroll-animate">
+                    <div class="stat-number" id="stat1">2M+</div>
+                    <div class="stat-label">Farmers Empowered</div>
+                </div>
+                <div class="stat-item scroll-animate">
+                    <div class="stat-number" id="stat2">95%</div>
+                    <div class="stat-label">Prediction Accuracy</div>
+                </div>
+                <div class="stat-item scroll-animate">
+                    <div class="stat-number" id="stat3">40%</div>
+                    <div class="stat-label">Yield Increase Avg.</div>
+                </div>
+                <div class="stat-item scroll-animate">
+                    <div class="stat-number" id="stat4">50+</div>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="content-container">
+            <span class="about-icon"><i class="fas fa-seedling"></i></span>
+            <span class="about-highlight">About AgroMind AI</span>
+            <h2 class="section-title scroll-animate">Empowering Agriculture,<br>Ending Hunger</h2>
+            <div class="content-text scroll-animate">
+                <p>
+                    <strong>AgroMind AI</strong> is a mission-driven technology platform dedicated to ending hunger through the power of artificial intelligence. By combining real-time data, advanced analytics, and decades of agronomic expertise, we empower farmers, NGOs, and governments to make smarter decisions, increase yields, and build resilient food systems.
+                </p>
+                <p>
+                    Our vision is a world where every farmer — regardless of size or location — has access to the tools and insights needed to feed their communities and secure a sustainable future.
+                </p>
+                <p>
+                    <em>Founded by a team of agricultural scientists, data engineers, and social impact advocates, AgroMind AI bridges the gap between cutting-edge AI technology and grassroots farming communities worldwide.</em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="features-container">
+            <div class="features-header">
+                <div class="section-tag scroll-animate"><i class="fas fa-bolt"></i> Core Features</div>
+                <h2 class="section-title scroll-animate">Transforming Agriculture<br>with AI Power</h2>
+                <p class="section-subtitle scroll-animate">Comprehensive features designed to revolutionize how the world grows food</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card scroll-animate">
+                    <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                    <h3 class="feature-title">AI Insights for Every Acre</h3>
+                    <p class="feature-description">Analyze satellite imagery, sensor data, and historical trends in real-time. Our AI delivers actionable recommendations tailored to each farm's unique conditions.</p>
+                </div>
+                <div class="feature-card scroll-animate">
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="feature-title">Precision Crop Forecasting</h3>
+                    <p class="feature-description">Predict yields, harvest windows, and resource needs with industry-leading accuracy. Minimize waste, optimize supply chains, and ensure food reaches those who need it most.</p>
+                </div>
+                <div class="feature-card scroll-animate">
+                    <div class="feature-icon"><i class="fas fa-cloud-sun"></i></div>
+                    <h3 class="feature-title">Climate-Smart Planning</h3>
+                    <p class="feature-description">Integrate hyperlocal weather forecasts and climate risk analysis to help farmers adapt to changing conditions and protect crops from extreme events.</p>
+                </div>
+                <div class="feature-card scroll-animate">
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 class="feature-title">Intuitive Dashboard</h3>
+                    <p class="feature-description">Access all insights and recommendations through a stunning, mobile-friendly interface — designed for farmers of all technical backgrounds, anywhere in the world.</p>
+                </div>
+                <div class="feature-card scroll-animate">
+                    <div class="feature-icon"><i class="fas fa-globe"></i></div>
+                    <h3 class="feature-title">Multi-Language Support</h3>
+                    <p class="feature-description">Available in 20+ languages to serve diverse communities worldwide, breaking down language barriers to agricultural innovation and knowledge sharing.</p>
+                </div>
+                <div class="feature-card scroll-animate">
+                    <div class="feature-icon"><i class="fas fa-plug"></i></div>
+                    <h3 class="feature-title">API Integrations</h3>
+                    <p class="feature-description">Seamlessly connect with existing farm management systems and government platforms through our robust, developer-friendly API infrastructure and SDKs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="content-section white" id="pricing">
+        <div class="content-container" style="max-width:1100px">
+            <div style="text-align:center;margin-bottom:1rem">
+                <div class="section-tag scroll-animate"><i class="fas fa-tag"></i> Pricing Plans</div>
+                <h2 class="section-title scroll-animate">Accessible Solutions<br>for Every Scale</h2>
+                <p class="section-subtitle scroll-animate" style="margin:0 auto">Transparent pricing for smallholder farmers, enterprises, and NGOs alike.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card scroll-animate">
+                    <h3 class="pricing-title">Free Tier</h3>
+                    <div class="pricing-price">$0<span style="font-size:1rem;color:#64748b;">/mo</span></div>
+                    <ul class="pricing-features">
+                        <li>Essential AI insights</li>
+                        <li>Basic crop forecasting</li>
+                        <li>Weather alerts</li>
+                        <li>Community support</li>
+                        <li>Mobile app access</li>
+                    </ul>
+                    <a href="main.html" class="cta-button" style="width:100%;justify-content:center;">Get Started Free</a>
+                </div>
+                <div class="pricing-card featured scroll-animate">
+                    <h3 class="pricing-title">Pro Tier</h3>
+                    <div class="pricing-price">Custom<span style="font-size:1rem;color:#64748b;"> pricing</span></div>
+                    <ul class="pricing-features">
+                        <li>Advanced AI analytics</li>
+                        <li>Priority support</li>
+                        <li>Full API access</li>
+                        <li>Custom integrations</li>
+                        <li>Historical data analysis</li>
+                        <li>Export capabilities</li>
+                    </ul>
+                    <a href="mailto:agromindai@gmail.com" class="cta-button" style="width:100%;justify-content:center;">Contact Sales</a>
+                </div>
+                <div class="pricing-card scroll-animate">
+                    <h3 class="pricing-title">Enterprise</h3>
+                    <div class="pricing-price">Custom<span style="font-size:1rem;color:#64748b;"> solutions</span></div>
+                    <ul class="pricing-features">
+                        <li>Tailored deployments</li>
+                        <li>Dedicated onboarding</li>
+                        <li>Team training sessions</li>
+                        <li>24/7 premium support</li>
+                        <li>Custom reporting</li>
+                        <li>White-label options</li>
+                    </ul>
+                    <a href="mailto:agromindai@gmail.com" class="cta-button" style="width:100%;justify-content:center;">Contact Us</a>
+                </div>
+            </div>
+            <div class="content-text scroll-animate" style="text-align:center;margin-top:2.5rem;">
+                <p><strong style="color:#00e676;">Special pricing available for NGOs and government partners.</strong> Contact our team to learn more about our impact-focused pricing options.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="content-section gray" id="support">
+        <div class="content-container" style="max-width:1000px">
+            <div style="text-align:center;margin-bottom:1rem">
+                <div class="section-tag scroll-animate"><i class="fas fa-headset"></i> Support</div>
+                <h2 class="section-title scroll-animate">We're Here to Help<br>You Succeed</h2>
+                <p class="section-subtitle scroll-animate" style="margin:0 auto">Reach out to our team anytime — dedicated support for every farmer.</p>
+            </div>
+            <div class="support-grid">
+                <div class="support-card scroll-animate">
+                    <h3 class="feature-title"><i class="fas fa-envelope" style="color:#00e676;margin-right:.5rem"></i>Contact Us Directly</h3>
+                    <p class="feature-description" style="color:#94a3b8;margin-bottom:1rem">
+                        <strong style="color:#f0fdf4;">Email:</strong> <a href="mailto:agromindai@gmail.com" style="color:#00e676;">agromindai@gmail.com</a><br>
+                        <strong style="color:#f0fdf4;">Phone:</strong> <a href="tel:+25470010020" style="color:#00e676;">+254 700 100 20</a>
+                    </p>
+                    <ul style="list-style:none;display:flex;flex-direction:column;gap:.75rem">
+                        <li style="color:#94a3b8;font-size:.9rem"><i class="fas fa-book" style="color:#00e676;width:20px"></i> <strong style="color:#f0fdf4">Help Center:</strong> Guides, FAQs &amp; troubleshooting 24/7</li>
+                        <li style="color:#94a3b8;font-size:.9rem"><i class="fas fa-comments" style="color:#00e676;width:20px"></i> <strong style="color:#f0fdf4">Live Chat:</strong> Reach our team from your dashboard</li>
+                        <li style="color:#94a3b8;font-size:.9rem"><i class="fas fa-users" style="color:#00e676;width:20px"></i> <strong style="color:#f0fdf4">Community Forum:</strong> Connect with agricultural experts</li>
+                        <li style="color:#94a3b8;font-size:.9rem"><i class="fas fa-graduation-cap" style="color:#00e676;width:20px"></i> <strong style="color:#f0fdf4">Training:</strong> Onboarding for enterprise clients</li>
+                    </ul>
+                </div>
+                <div class="support-card scroll-animate">
+                    <h3 class="feature-title"><i class="fas fa-paper-plane" style="color:#00e676;margin-right:.5rem"></i>Send Us a Message</h3>
+                    <form action="mailto:agromindai@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required class="form-input">
+                        <input type="email" name="Email" placeholder="Your Email" required class="form-input">
+                        <textarea name="Message" placeholder="How can we help you?" rows="4" required class="form-input form-textarea"></textarea>
+                        <button type="submit" class="cta-button" style="width:fit-content;align-self:flex-start">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="privacy-section" id="privacy">
+        <div class="content-container">
+            <div class="section-tag scroll-animate"><i class="fas fa-shield-alt"></i> Privacy</div>
+            <h2 class="section-title scroll-animate">Your Data, Your Control</h2>
+            <div class="content-text scroll-animate">
+                <p>Your data security and privacy are our top priorities. We are committed to protecting your information and being fully transparent about how we collect, use, and safeguard your data.</p>
+                <ul class="privacy-list">
+                    <li><strong style="color:#f0fdf4">Data Ownership:</strong> You retain full ownership of your farm and personal data. We never sell or share your information without your explicit consent.</li>
+                    <li><strong style="color:#f0fdf4">Secure Storage:</strong> All data is encrypted in transit and at rest, following industry best practices and international security standards (AES-256).</li>
+                    <li><strong style="color:#f0fdf4">Transparency:</strong> We only collect data necessary to provide our services and improve your farming outcomes. You can request to see, modify, or delete your data at any time.</li>
+                </ul>
+                <p style="margin-top:1.5rem">For complete details on our privacy practices, please contact us at <a href="mailto:agromindai@gmail.com" style="color:#00e676;">agromindai@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms Section -->
+    <section class="terms-section" id="terms">
+        <div class="content-container">
+            <div class="section-tag scroll-animate"><i class="fas fa-file-contract"></i> Terms of Service</div>
+            <h2 class="section-title scroll-animate">Fair &amp; Transparent Terms</h2>
+            <div class="content-text scroll-animate">
+                <p>By using AgroMind AI, you agree to the following terms of service. These terms ensure fair use of our platform while protecting both users and our service.</p>
+                <ul class="terms-list">
+                    <li><strong style="color:#f0fdf4">Fair Use:</strong> Our platform is designed for agricultural and research purposes. Misuse or unauthorized commercial exploitation is prohibited.</li>
+                    <li><strong style="color:#f0fdf4">Accuracy and Reliability:</strong> While we strive for the highest accuracy, all outputs are based on available data. Combine AI insights with local expertise for best results.</li>
+                    <li><strong style="color:#f0fdf4">Liability:</strong> AgroMind AI is not liable for losses resulting solely from platform outputs. Use our insights as one of many tools in your decision-making process.</li>
+                    <li><strong style="color:#f0fdf4">Updates and Changes:</strong> We may update our terms and features periodically. Continued use of the platform constitutes acceptance of any changes.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="testimonial-container">
+            <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+            <blockquote class="testimonial-quote scroll-animate">
+                "Before AgroMind AI, we relied on guesswork and tradition. Now, our yields are up, our losses are down, and our community is thriving. This technology is a true game-changer for smallholder farmers like me."
+            </blockquote>
+            <div class="testimonial-author scroll-animate">Mary Wanjiku</div>
+            <div class="testimonial-role">Smallholder Farmer · Nyeri County, Kenya</div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta" id="get-started">
+        <div class="footer-cta-container">
+            <h2 class="scroll-animate">Ready to grow a<br><span style="background:linear-gradient(135deg,#00e676,#1de9b6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">hunger-free future?</span></h2>
+            <p class="scroll-animate">Join thousands of farmers, NGOs, and governments already using AgroMind AI to transform agriculture and fight hunger worldwide.</p>
+            <div class="cta-buttons scroll-animate">
+                <a href="main.html" class="btn-primary">
+                    <i class="fas fa-user-plus"></i> Create Free Account
+                </a>
+                <a href="mailto:agromindai@gmail.com" class="btn-secondary">
+                    <i class="fas fa-envelope"></i> Contact Our Team
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div>
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon"><i class="fas fa-leaf"></i></div>
+                        <div class="footer-logo-text">AgroMind AI</div>
+                    </div>
+                    <p class="footer-brand-desc">🌱 Supporting UN SDG #2: Zero Hunger. Empowering smallholder farmers with AI-driven insights for a sustainable, food-secure future.</p>
+                </div>
+                <div>
+                    <div class="footer-col-title">Platform</div>
+                    <ul class="footer-col-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="main.html">Dashboard</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-col-title">Support</div>
+                    <ul class="footer-col-links">
+                        <li><a href="#support">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-col-title">Legal</div>
+                    <ul class="footer-col-links">
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 AgroMind AI. All rights reserved. | Building a sustainable future, one prediction at a time.</p>
+                <p class="made-by">Crafted with ❤️ by <span>Shoaib Pasha</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
+    // Mobile menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks  = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            if (href.length > 1) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    navLinks.classList.remove('open');
+                }
+            }
+        });
+    });
+
+    // Scroll animations
+    const observerOptions = { threshold: 0.12, rootMargin: '0px 0px -60px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, observerOptions);
+    document.querySelectorAll('.scroll-animate').forEach(el => observer.observe(el));
+
+    // Counter animation
+    function animateCounter(element, target, suffix) {
+        let current = 0;
+        const duration = 2000;
+        const increment = target / (duration / 16);
+        const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+                current = target;
+                clearInterval(timer);
+            }
+            if (target >= 1000000) {
+                element.textContent = (current / 1000000).toFixed(1) + 'M' + suffix;
+            } else {
+                element.textContent = Math.floor(current) + suffix;
+            }
+        }, 16);
+    }
+
+    const statsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCounter(document.getElementById('stat1'), 2000000, '+');
+                animateCounter(document.getElementById('stat2'), 95, '%');
+                animateCounter(document.getElementById('stat3'), 40, '%');
+                animateCounter(document.getElementById('stat4'), 50, '+');
+                statsObserver.disconnect();
+            }
+        });
+    }, { threshold: 0.5 });
+
+    const statsSection = document.querySelector('.stats');
+    if (statsSection) statsObserver.observe(statsSection);
+
+    // Generate floating particles
+    const particlesContainer = document.getElementById('particles');
+    const particleCount = 25;
+    for (let i = 0; i < particleCount; i++) {
+        const p = document.createElement('div');
+        p.classList.add('hero-particle');
+        p.style.left  = Math.random() * 100 + '%';
+        p.style.top   = Math.random() * 100 + '%';
+        p.style.width  = (Math.random() * 4 + 2) + 'px';
+        p.style.height = p.style.width;
+        p.style.animationDelay    = (Math.random() * 5) + 's';
+        p.style.animationDuration = (Math.random() * 4 + 4) + 's';
+        particlesContainer.appendChild(p);
+    }
+    </script>
+
+</body>
+</html>
